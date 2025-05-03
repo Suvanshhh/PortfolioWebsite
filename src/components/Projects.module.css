@@ -1,0 +1,25 @@
+.projects {
+  padding: 80px 20px 60px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: 'Fira Code', monospace;
+  color: #a0aec0;
+}
+
+.projects h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #38b2ac;
+  margin-bottom: 20px;
+}
+
+.projects ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.projects li {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}

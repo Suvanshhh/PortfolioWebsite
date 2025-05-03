@@ -1,0 +1,49 @@
+.bottomPanel {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 150px;
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  font-family: 'Fira Code', monospace;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #333;
+  z-index: 1000;
+}
+
+.tabBar {
+  display: flex;
+  background-color: #252526;
+  border-bottom: 1px solid #333;
+}
+
+.tab {
+  padding: 8px 16px;
+  cursor: pointer;
+  user-select: none;
+  color: #cccccc;
+  border-right: 1px solid #333;
+  transition: background-color 0.2s ease;
+}
+
+.tab:hover {
+  background-color: #333333;
+}
+
+.active {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  font-weight: bold;
+  border-bottom: 2px solid #007acc;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 10px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}

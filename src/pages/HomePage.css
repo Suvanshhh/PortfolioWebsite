@@ -1,0 +1,149 @@
+.home-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e1e1e;
+  font-family: 'Fira Code', monospace, monospace;
+  color: #d4d4d4;
+}
+
+.editor-window {
+  width: 900px;
+  height: 600px;
+  background-color: #252526;
+  border-radius: 6px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.7);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.editor-header {
+  height: 30px;
+  background-color: #3c3c3c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  color: #cccccc;
+  user-select: none;
+}
+
+.editor-title {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.editor-controls {
+  display: flex;
+  gap: 8px;
+}
+
+.control-btn {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.control-btn.close {
+  background-color: #f14c4c;
+}
+
+.control-btn.minimize {
+  background-color: #ffbd4c;
+}
+
+.control-btn.maximize {
+  background-color: #3cc13c;
+}
+
+.editor-content {
+  flex-grow: 1;
+  display: flex;
+  background-color: #1e1e1e;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #252526;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px solid #333;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  background-color: #007acc;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.name {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.title {
+  margin: 5px 0 20px 0;
+  font-size: 1rem;
+  color: #cccccc;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.social-links a {
+  color: #007acc;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  padding: 8px 0;
+  border-radius: 4px;
+  background-color: #1e1e1e;
+  transition: background-color 0.3s;
+}
+
+.social-links a:hover {
+  background-color: #007acc;
+  color: #ffffff;
+}
+
+.main-section {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: hidden;
+}
+
+.main-section h2 {
+  border-bottom: 2px solid #007acc;
+  padding-bottom: 5px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.main-section p, .main-section ul {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.main-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.main-section ul li {
+  margin-bottom: 10px;
+}

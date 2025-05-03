@@ -1,0 +1,51 @@
+.tabBar {
+  display: flex;
+  background-color: #252526;
+  border-bottom: 1px solid #333;
+  font-family: 'Fira Code', monospace;
+  user-select: none;
+  padding-left: 10px;
+  height: 35px;
+  align-items: center;
+  overflow-x: auto;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  color: #a0aec0;
+  border-bottom: 2px solid transparent;
+  transition: color 0.3s ease, border-bottom-color 0.3s ease;
+}
+
+.tab:hover {
+  color: #68d391;
+}
+
+.active {
+  color: #38b2ac;
+  border-bottom: 2px solid #38b2ac;
+  font-weight: 700;
+}
+
+.tabLabel {
+  margin-right: 8px;
+}
+
+.closeBtn {
+  background: none;
+  border: none;
+  color: #a0aec0;
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1;
+  padding: 0;
+  transition: color 0.3s ease;
+}
+
+.closeBtn:hover {
+  color: #f56565;
+}

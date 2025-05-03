@@ -1,0 +1,15 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  font-family: 'Fira Code', monospace;
+  padding: 0px 0;
+  user-select: none;
+}
+
+/* Removed styles for navList, navItem, active, and hover */
