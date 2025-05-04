@@ -4,20 +4,19 @@ import Sidebar from '../components/Sidebar';
 import TabBar from '../components/TabBar';
 import Editor from '../components/Editor';
 import Terminal from '../components/Terminal';
-
 import Introduction from '../components/files/Hello/Introduction';
 import Bio from '../components/files/AboutMe/Bio';
-import Project1 from '../components/files/Projects/Project1';
-import Project2 from '../components/files/Projects/Project2';
-import Project3 from '../components/files/Projects/Project3';
+import MeasureMate from '../components/files/Projects/MeasureMate';
+import ChessGame from '../components/files/Projects/ChessGame';
 import EmailMe from '../components/files/ContactMe/EmailMe';
+import VartalaapAI from '../components/files/Projects/VartalaapAI';
 
 const fileContents = {
   '_hello/Introduction': Introduction,
   '_about-me/Bio': Bio,
-  '_projects/Project1': Project1,
-  '_projects/Project2': Project2,
-  '_projects/Project3': Project3,
+  '_projects/VartalaapAI': VartalaapAI,
+  '_projects/ChessGame': ChessGame,
+  '_projects/MeasureMate': MeasureMate,
   '_contact-me/EmailMe': EmailMe,
 };
 

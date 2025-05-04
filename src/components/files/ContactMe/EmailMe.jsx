@@ -5,7 +5,7 @@ function EmailMe() {
   return (
     <>
       <h2>// Contact Me //</h2>
-      <p>Email: example@proton.me</p>
+      <p>Email: choudharysuvansh05@gmail.com</p>
     </>
   );
 }

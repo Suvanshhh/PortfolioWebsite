@@ -9,7 +9,7 @@ export const fileStructure = [
   },
   {
     folder: '_projects',
-    files: ['Project1', 'Project2', 'Project3']
+    files: ['VartalaapAI','ChessGame', 'MeasureMate']
   },
   {
     folder: '_contact-me',
